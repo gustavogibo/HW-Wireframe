@@ -26,3 +26,42 @@ h1, p {
     color: #777;
     background: #ebe;
 }
+
+section, aside {
+    width: 49.5%;
+    text-align: center;
+    height: 150px;
+    padding-top: 10px;
+}
+section {
+    width: 48%;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+article {
+    background: #ebe;
+}
+
+article > div {
+    margin-top: 10px;
+    background: #777;
+    padding: 10px 0px 10px 0px;
+}
+
+aside {
+    float: right;
+}
+
+main:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+}
+
